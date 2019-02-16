@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78845cac054e9934f9533736c4e75586, type: 3}
+  m_Name: Default Game Settings
+  m_EditorClassIdentifier: 
+  TimeScale: 3.3
+  VerticalRollForce: 15
+  HorizontalRollForce: 2
+  AngularRollForce: 1.2
+  VerticalBounceForce: 5
+  HorizontalBounceForce: 0
+  AngularBounceForce: 0.6
+  VerticalNudgeForce: 10
+  HorizontalNudgeForce: 1
+  AngularNudgeForce: 0.1
+  MaxThrowVelocityMagnitude: 15
+  AngularThrowForceMultiplier: 2
+  VerticalThrowForce: 2
+  MinDistanceToFlick: 0.5
+  HorizontalFlickForce: 8
+  VerticalFlickForce: 13
+  DiceHoldHeight: 3
+  ZoomMagnitude: 0.3
+  ZoomLerpSpeed: 8
+  ZoomInMax: 10
+  ZoomOutMax: 56
+  ColliderMoveSpeed: 0.75
+  KillBoxLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  KillBoxInitializeDelay: 1
+  TopPadding: 0
+  BottomPadding: 0
+  LeftPadding: 0
+  RightPadding: 0
